@@ -1,0 +1,16 @@
+{
+  "name": "vsysio/laravel-kik-api",
+  "type": "library",
+  "description": "Kik API, written as a Laravel service provider",
+  "keywords": ["kik","laravel","api","sdk"],
+  "homepage": "https://vsysio.net",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brandon Gould",
+      "email": "zylithi@gmail.com",
+      "homepage": "http://vsysio.net",
+      "role": "Developer"
+    }
+  ],
+}
