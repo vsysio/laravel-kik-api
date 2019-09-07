@@ -13,4 +13,17 @@
       "role": "Developer"
     }
   ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "vsysio\\laravel_kik_api\\ServiceProvider"
+      ],
+      "aliases": {
+        "KikAPI": "vsysio\\laravel_kik_api\\ServiceProvider"
+      }
+    }
+  },
+  "require": {
+    "sergeymakinen/laravel-phpstorm-stubs": "^1.0"
+  }
 }
