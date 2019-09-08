@@ -23,7 +23,7 @@
       }
     }
   },
-  "require": {
+  "require-dev": {
     "sergeymakinen/laravel-phpstorm-stubs": "^1.0"
   }
 }
