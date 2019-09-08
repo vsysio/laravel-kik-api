@@ -1,5 +1,5 @@
 {
-  "name": "vsysio/laravel-kik-api",
+  "name": "vsysio/laravel_kik_api",
   "type": "library",
   "description": "Kik API, written as a Laravel service provider",
   "keywords": ["kik","laravel","api","sdk"],
