@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09b2e9b0c2a5068c3976755d2d2ac078",
-    "packages": [
+    "content-hash": "d6da3e616839cf2b64798004a6e066f0",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "doctrine/inflector",
             "version": "v1.3.0",
@@ -1054,16 +1055,16 @@
         },
         {
             "name": "sergeymakinen/laravel-phpstorm-stubs",
-            "version": "v1.0.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sergeymakinen/laravel-phpstorm-stubs.git",
-                "reference": "b145703744ab924099bebe62a82a6efa91154a96"
+                "reference": "63daebc15f24207a1b17539d542d7a9dd17afe78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sergeymakinen/laravel-phpstorm-stubs/zipball/b145703744ab924099bebe62a82a6efa91154a96",
-                "reference": "b145703744ab924099bebe62a82a6efa91154a96",
+                "url": "https://api.github.com/repos/sergeymakinen/laravel-phpstorm-stubs/zipball/63daebc15f24207a1b17539d542d7a9dd17afe78",
+                "reference": "63daebc15f24207a1b17539d542d7a9dd17afe78",
                 "shasum": ""
             },
             "require": {
@@ -1092,7 +1093,7 @@
                 "stub",
                 "stubs"
             ],
-            "time": "2017-03-01T18:32:05+00:00"
+            "time": "2017-06-16T11:46:11+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2571,10 +2572,11 @@
             "time": "2019-08-27T17:00:38+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "sergeymakinen/laravel-phpstorm-stubs": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
