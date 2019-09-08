@@ -9,7 +9,7 @@ class KikServiceProvider extends ServiceProvider {
     public function boot() {
 
         $this->publishes([
-            __DIR__.'Config.php' => config_path('\kik.php')
+            __DIR__.'\Config.php' => config_path('kik.php')
         ]);
 
     }
