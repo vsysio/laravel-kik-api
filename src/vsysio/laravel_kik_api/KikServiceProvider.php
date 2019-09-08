@@ -14,4 +14,12 @@ class KikServiceProvider extends ServiceProvider {
 
     }
 
+    public function register() {
+
+        $this->app->singleton('\vsysio\laravel_kik_api\Interfaces\API', function ($app) {
+           return new \vsysio\laravel_kik_api\Interfaces\API();
+        });
+
+    }
+
 }
