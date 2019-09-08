@@ -25,5 +25,10 @@
   },
   "require-dev": {
     "sergeymakinen/laravel-phpstorm-stubs": "dev-master"
+  },
+  "autoload": {
+    "psr-4" : {
+      "vsysio\\laravel_kik_api\\" : "src/"
+    }
   }
 }
