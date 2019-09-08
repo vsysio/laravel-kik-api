@@ -16,10 +16,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "vsysio\\laravel_kik_api\\ServiceProvider"
+        "vsysio\\laravel_kik_api\\KikServiceProvider"
       ],
       "aliases": {
-        "KikAPI": "vsysio\\laravel_kik_api\\ServiceProvider"
+        "KikAPI": "vsysio\\laravel_kik_api\\KikServiceProvider"
       }
     }
   },
